@@ -52,6 +52,28 @@
 4. **API 서버 구현**: `main.py`에서 FastAPI를 사용한 웹 API 서버 구현
 5. **오류 처리 및 개선**: 출력 폴더 생성, Excel 변환 오류 처리, 파일 선택 기본 설정 등 수정
 
+## GitHub 등록 과정
+
+1. **Git 초기화 및 로컬 저장소 생성**:
+   - 터미널에서 프로젝트 디렉토리로 이동: `cd /d/projects/FileConverter`
+   - Git 저장소 초기화: `git init`
+   - 모든 파일 추가: `git add .`
+   - 초기 커밋: `git commit -m "Initial commit for MS Office to PDF Converter"`
+
+2. **GitHub에서 새 저장소 생성**:
+   - GitHub 웹사이트에서 'New repository' 선택
+   - 저장소 이름 입력 (예: `FileConverter`)
+   - 공개(Public) 또는 비공개(Private) 설정 후 'Create repository' 클릭
+
+3. **로컬 저장소를 GitHub에 연결 및 푸시**:
+   - GitHub 저장소 URL 복사 (HTTPS 또는 SSH)
+   - 로컬 저장소 연결: `git remote add origin https://github.com/사용자이름/FileConverter.git`
+   - 커밋 푸시: `git push -u origin master`
+
+4. **GitHub에서 확인**:
+   - 저장소 페이지에서 파일 업로드 확인
+   - `README.md` 파일이 메인 페이지에 표시되는지 확인
+
 ## 라이선스
 
 이 프로젝트는 MIT 라이선스 하에 배포됩니다.

@@ -1,0 +1,8 @@
+# requirements.txt
+
+# MS Office to PDF Converter 프로젝트에 필요한 라이브러리
+pywin32==306
+fastapi==0.92.0
+uvicorn==0.20.0
+python-multipart==0.0.5
+comtypes==1.1.14 
